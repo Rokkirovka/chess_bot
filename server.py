@@ -9,7 +9,6 @@ from telegram.ext import Application, CommandHandler, ConversationHandler, Messa
 color_keyboard = [['белый', 'черный'],
                   ['случайно']]
 color_markup = ReplyKeyboardMarkup(color_keyboard, one_time_keyboard=True)
-BOT_TOKEN = '6605685633:AAHIAN7Zgwm1Nb_HoyAs81NwHYN33I2Thxc'
 
 
 def main():
