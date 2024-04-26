@@ -1,7 +1,6 @@
 import random
 
 import chess
-import chess.svg
 import requests
 from telegram import ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ConversationHandler, MessageHandler, filters
